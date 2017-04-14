@@ -8,6 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.1'
+# Added bootstrap in Chapter 5.1.2
+gem 'bootstrap-sass', '3.3.6'
 # Use sqlite3 as the database for Active Record
 # removed in chapter 1.5.1 to resolve conflict with heroku
 #gem 'sqlite3', '1.3.12'
