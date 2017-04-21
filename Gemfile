@@ -12,6 +12,11 @@ gem 'rails', '5.0.1'
 gem 'bcrypt', '3.1.11'
 # Added bootstrap in Chapter 5.1.2
 gem 'bootstrap-sass', '3.3.6'
+# Added faker in Chapter 10.3.2 to create sample accounts automatically 
+gem 'faker', '1.6.6'
+# Added paginate functionality in Chapter 10.3.3
+gem 'will_paginate', '3.1.0'
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use sqlite3 as the database for Active Record
 # removed in chapter 1.5.1 to resolve conflict with heroku
 #gem 'sqlite3', '1.3.12'
