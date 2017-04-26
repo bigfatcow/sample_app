@@ -14,6 +14,10 @@ gem 'bcrypt', '3.1.11'
 gem 'bootstrap-sass', '3.3.6'
 # Added faker in Chapter 10.3.2 to create sample accounts automatically 
 gem 'faker', '1.6.6'
+# Added in Chapter 13.4.1 to allow upload and resizing of images
+gem 'carrierwave', '0.11.2'
+gem 'mini_magick', '4.5.1'
+gem 'fog', '1.38.0'
 # Added paginate functionality in Chapter 10.3.3
 gem 'will_paginate', '3.1.0'
 gem 'bootstrap-will_paginate', '0.0.10'
